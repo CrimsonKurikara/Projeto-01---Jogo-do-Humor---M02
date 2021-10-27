@@ -224,6 +224,53 @@ main{
         padding-top: 7.2rem;
     }
 }
+@media (max-width:600px) {
+    header{
+        height: 6rem;
+    }
+    #titulo{
+        font-size: 2rem;
+        padding-left: 23rem;
+        padding-top: 2.5rem;
+        text-align: center;
+    }
+    main{
+        padding-left: 6rem;
+    }
+    #nome{
+        font-size: 2rem;
+        padding-top: 12rem;
+    }
+    #troca-img{
+        width: 11rem;
+        height: 15rem;
+        padding-left: 1rem;
+        padding-top: 5.2rem;
+    }
+}
+@media (max-width:500px) {
+    header{
+        height: 8rem;
+    }
+    #titulo{
+        font-size: 2rem;
+        padding-left: 13rem;
+        padding-top: 3rem;
+    }
+    main{
+        padding-left: 2rem;
+    }
+    #nome{
+        font-size: 2rem;
+        padding-top: 15rem;
+    }
+    #troca-img{
+        width: 11rem;
+        height: 15rem;
+        padding-left: 1rem;
+        padding-top: 8.2rem;
+    }
+}
 @media (max-width:425px) {
     header{
         height: 8rem;
