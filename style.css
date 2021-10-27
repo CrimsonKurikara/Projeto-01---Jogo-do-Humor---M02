@@ -9,6 +9,7 @@ header{
     background-position: center;
     display: flex;
     height: 8.5rem;
+    text-align: right;
 }
 #titulo{
     font-size: 3.4rem;
@@ -28,6 +29,7 @@ main{
 #nome{
     font-size: 4rem;
     padding-bottom: 2rem;
+    padding-top: 28rem;
 }
 #situacao{
     font-size: 3.4rem;
@@ -42,11 +44,74 @@ main{
     font-size: 2rem;
     border: groove #73020C;
 }
+.myButton:hover{
+    background-color: #F2EEB6;
+    border: none;
+}
 #troca-img{
     padding-top: 17rem;
+    position: absolute;
+    padding-left: 1rem;
     
 }
-@media only screen and (max-width:1024px) {
+@media(max-width:1440px) {
+    header{
+        height: 9rem;
+    }
+    #titulo{
+        padding-left: 10rem;
+    }
+    main{
+        padding-left: 23rem;
+    }
+    #nome{
+        font-size: 4rem;
+        padding-top: 18rem;
+    }
+    #troca-img{
+        width: 15rem;
+        height: 20rem;
+        padding-top: 15rem;
+    }
+}
+@media(max-width:1366px) {
+    header{
+        height: 9rem;
+    }
+    #titulo{
+        padding-left: 10rem;
+    }
+    main{
+        padding-left: 18rem;
+    }
+    #nome{
+        font-size: 4rem;
+        padding-top: 11rem;
+    }
+    #troca-img{
+        width: 15rem;
+        height: 20rem;
+        padding-top: 8rem;
+    }
+}
+@media(max-width:1280px) {
+    #titulo{
+        padding-left: 10rem;
+    }
+    main{
+        padding-left: 15rem;
+    }
+    #nome{
+        font-size: 4rem;
+        padding-top: 11rem;
+    }
+    #troca-img{
+        width: 15rem;
+        height: 20rem;
+        padding-top: 8rem;
+    }
+}
+@media(max-width:768px) {
     header{
         height: 8.5rem;
     }
@@ -60,7 +125,7 @@ main{
     }
     #nome{
         font-size: 2rem;
-        padding-top: 10rem;
+        padding-top: 19rem;
         padding-bottom: 1rem;
     }
     #situacao{
@@ -75,5 +140,50 @@ main{
     #troca-img{
         width: 15rem;
         height: 20rem;
+    }
+}
+@media (max-width:425px) {
+    header{
+        height: 8rem;
+    }
+    #titulo{
+        font-size: 2rem;
+        padding-left: 13rem;
+        padding-top: 3rem;
+    }
+    main{
+        padding-left: 2rem;
+    }
+    #nome{
+        font-size: 2rem;
+        padding-top: 20rem;
+    }
+    #troca-img{
+        width: 11rem;
+        height: 15rem;
+        padding-left: 1rem;
+        padding-top: 15rem;
+    }
+}
+@media (max-width:375px) {
+    header{
+        height: 8rem;
+    }
+    #titulo{
+        font-size: 2rem;
+        padding-left: 13rem;
+        padding-top: 3rem;
+    }
+    main{
+        padding-left: 1rem;
+    }
+    #nome{
+        font-size: 2rem;
+        padding-top: 14rem;
+    }
+    #troca-img{
+        width: 10rem;
+        height: 14rem;
+        padding-left: 0.3rem;
     }
 }
