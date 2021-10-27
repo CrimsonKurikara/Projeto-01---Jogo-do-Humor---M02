@@ -187,3 +187,26 @@ main{
         padding-left: 0.3rem;
     }
 }
+@media (max-width:360px) {
+    header{
+        height: 9rem;
+    }
+    #titulo{
+        font-size: 2rem;
+        padding-left: 8rem;
+        padding-top: 3rem;
+    }
+    main{
+        padding-left: 0.5rem;
+    }
+    #nome{
+        font-size: 2rem;
+        padding-top: 14rem;
+    }
+    #troca-img{
+        width: 9rem;
+        height: 12rem;
+        padding-left: 0.3rem;
+        padding-top: 10rem;
+    }
+}
