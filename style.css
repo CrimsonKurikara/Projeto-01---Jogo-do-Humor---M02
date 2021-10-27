@@ -111,6 +111,23 @@ main{
         padding-top: 8rem;
     }
 }
+@media(max-width:1024px) {
+    #titulo{
+        padding-left: 10rem;
+    }
+    main{
+        padding-left: 8rem;
+    }
+    #nome{
+        font-size: 4rem;
+        padding-top: 11rem;
+    }
+    #troca-img{
+        width: 15rem;
+        height: 20rem;
+        padding-top: 8rem;
+    }
+}
 @media(max-width:873px) {
     header{
         height: 4rem;
