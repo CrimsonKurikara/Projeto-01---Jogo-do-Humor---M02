@@ -111,6 +111,38 @@ main{
         padding-top: 8rem;
     }
 }
+@media(max-width:873px) {
+    header{
+        height: 4rem;
+    }
+    #titulo{
+        font-size: 2rem;
+        padding-top: 1.5rem;
+        padding-left: 35rem;
+    }
+    main{
+        padding-left: 17rem;
+    }
+    #nome{
+        font-size: 2rem;
+        padding-top: 5.8rem;
+        padding-bottom: 1rem;
+    }
+    #situacao{
+        font-size: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .myButton{
+        width: 12rem;
+        height: 2rem;
+        font-size: 1rem;
+    }
+    #troca-img{
+        width: 7rem;
+        height: 10rem;
+        padding-top: 4rem;
+    }
+}
 @media(max-width:800px) {
     header{
         height: 4rem;
