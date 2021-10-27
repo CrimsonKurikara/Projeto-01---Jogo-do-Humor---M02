@@ -8,41 +8,72 @@ header{
     background-size: cover;
     background-position: center;
     display: flex;
-    height: 350px;
+    height: 8.5rem;
 }
 #titulo{
-    font-size: 100px;
+    font-size: 3.4rem;
     font-family: 'Bebas Neue', 'Verdana';
     color: #73020C;
-    padding-top: 125px;
-    padding-left: 1400px;
+    padding-top: 3rem;
+    padding-left: 101rem;
 }
 main{
     display: inline-block;
     color: #73020C;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    padding-left: 490px;
+    padding-left: 36rem;
     font-family: 'Bebas Neue', 'Verdana';
 }
 #nome{
-    font-size: 60px;
-    padding-bottom: 20px;
+    font-size: 4rem;
+    padding-bottom: 2rem;
 }
 #situacao{
-    font-size: 50px;
-    padding-bottom: 20px;
+    font-size: 3.4rem;
+    padding-bottom: 3.4rem;
 }
 .myButton{
-    width: 500px;
-    height: 50px;
+    width: 33rem;
+    height: 3.4rem;
     background-color: #0D0D0D;
     font-family:'Bebas Neue', 'Verdana';
     color: #73020C;
-    font-size: 30px;
+    font-size: 2rem;
     border: groove #73020C;
 }
 #troca-img{
-    padding-top: 40px;
+    padding-top: 17rem;
+    
+}
+@media only screen and (max-width:1024px) {
+    header{
+        height: 8.5rem;
+    }
+    #titulo{
+        font-size: 2rem;
+        padding-bottom: 3rem;
+        padding-left: 35rem;
+    }
+    main{
+        padding-left: 10rem;
+    }
+    #nome{
+        font-size: 2rem;
+        padding-top: 10rem;
+        padding-bottom: 1rem;
+    }
+    #situacao{
+        font-size: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    .myButton{
+        width: 12rem;
+        height: 2rem;
+        font-size: 1rem;
+    }
+    #troca-img{
+        width: 15rem;
+        height: 20rem;
+    }
 }
