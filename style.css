@@ -204,6 +204,7 @@ main{
     #troca-img{
         width: 15rem;
         height: 20rem;
+        padding-top: 7.2rem;
     }
 }
 @media (max-width:425px) {
