@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    background-color: #0D0D0D;
+}
+header{
+    background-image: url('./tomb-raider-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 350px;
+}
+#titulo{
+    font-size: 100px;
+    font-family: 'Bebas Neue', 'Verdana';
+    color: #73020C;
+    padding-top: 125px;
+    padding-left: 1400px;
+}
+main{
+    display: inline-block;
+    color: #73020C;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-left: 490px;
+    font-family: 'Bebas Neue', 'Verdana';
+}
+#nome{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+#situacao{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.myButton{
+    width: 500px;
+    height: 50px;
+    background-color: #0D0D0D;
+    font-family:'Bebas Neue', 'Verdana';
+    color: #73020C;
+    font-size: 30px;
+    border: groove #73020C;
+}
+#troca-img{
+    padding-top: 40px;
+}
