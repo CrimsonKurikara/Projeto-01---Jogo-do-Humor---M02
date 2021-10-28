@@ -42,11 +42,13 @@ main{
     font-family:'Bebas Neue', 'Verdana';
     color: #73020C;
     font-size: 2rem;
-    border: groove #73020C;
+    border: solid #a34b52;
+    border-radius: 2rem;
 }
 .myButton:hover{
-    background-color: #F2EEB6;
-    border: none;
+    background-color: #252222;
+    border: solid #a34b52;
+    color: #90030f;
 }
 #troca-img{
     padding-top: 17rem;
