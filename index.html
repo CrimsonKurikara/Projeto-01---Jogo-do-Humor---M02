@@ -13,11 +13,19 @@
         <h1 id="titulo">Jogo do Humor</h1>
     </header>
     <main>
-        <p id="nome">Nome: Lara Croft</p>
-        <p id=situacao>Situação: <span id="troca-humor">Feliz</span></p>
-        <button class="myButton" onclick="trocaHumor()">Troque o humor da Lara</button>
+        <div class="card-content">
+            <section class="txt">
+                <p id="nome">Nome: Lara Croft</p>
+                <br>
+                <p id=situacao>Situação: <span id="troca-humor">Feliz</span></p>
+                <br>
+                <button class="botao" onclick="trocaHumor()">Troque o humor da Lara</button>
+            </section>
+            <section class="imagem">
+                <img src="lara-feliz.jpg" id="troca-img" width="330px" height="440px" alt="humor da lara">
+            </section>
+        </div>
     </main>
-    <img src="lara-feliz.jpg" id="troca-img" width="330px" height="440px" alt="humor da lara">
     <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
